@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from collections import defaultdict
 
 # Inisialisasi model YOLOv8
-model = YOLO(r'D:\Project\faceR\nama_env\yolov8n-face.pt')  # Ganti dengan path yang sesuai untuk model Anda
+model = YOLO(r'D:\Project\faceR-production\yolov8n-face.pt')  # Ganti dengan path yang sesuai untuk model Anda
 model.conf = 0.20  # Threshold confidence
 model.maxdet = 10  # Maksimal deteksi
 
